@@ -16,10 +16,12 @@ Utilizing Internet of things to strategically attract cattle for defecation in l
 - End Node is implemented by using Arduino.. AWS server is implemented by using NodeJS and Express. Web application is implemented by using ReactJS. Senet is public services handling LoRaWAN technology part.
 
 ## Proposed system architecture
--
+<image src="https://github.com/kimhamyong/cattle-can-help/assets/112596422/ebe3e9d0-4528-4638-9bdb-8dfae8633b92">
+
 
 ## Wiring Diagram
--
+<image src="https://github.com/kimhamyong/cattle-can-help/assets/112596422/9c782ec4-436a-412d-919f-b9283706caa8" width =550>
+
 
 ## Code Description
 ESP32 has two main functions. First, it sends a valid LoRaWAN packet with payload NPK sensor data. Second, it receives a valid LoRaWAN packet with payload signal("00" or "01") which is an user's command whether to open or lose feeder. The sound sensor activates simultaneously with the feeder. LED represents the feeder.
